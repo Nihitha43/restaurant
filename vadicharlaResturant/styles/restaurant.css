@@ -1,0 +1,38 @@
+/* Nihitha's Resturant CSS Style*/
+h1 {
+  font-family: cursive; 
+  color: #640808;
+}
+h4{
+  font-family: cursive;
+  text-decoration: underline;
+}
+body{
+  background-color: rgb(218, 125, 59);
+}
+p{
+  font-family: Times New Roman;
+  font-size: large;
+}
+Hr{
+    border: dashed black;
+    height: 2px;
+    background-color: darkred;
+}
+
+ul1 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  border: 1px solid darkred;
+  background-color: black;
+}
+ul1 li {
+  float: left;
+  border-right: 1px solid darkred;
+}
+
+ul1 li: last-child {
+  border-right: 1px solid darkred;
+}
